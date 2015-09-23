@@ -18,8 +18,8 @@
 
 {capture name=path}
 	<a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}">{l s='My account' mod='tickets'}</a>
-	<span class="navigation-pipe">{$navigationPipe}</span>
+	<span class="navigation-pipe">{$navigationPipe|escape:'htmlall':'UTF-8'}</span>
 	<a href="{$link->getModuleLink('tickets', 'support', [], true)|escape:'html':'UTF-8'}">{l s='My Tickets' mod='tickets'}</a>
-	<span class="navigation-pipe">{$navigationPipe}</span>
+	<span class="navigation-pipe">{$navigationPipe|escape:'htmlall':'UTF-8'}</span>
 	<span class="navigation_page">{l s='Contact' mod='tickets'}</span>
 {/capture}
