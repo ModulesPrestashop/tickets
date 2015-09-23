@@ -1,0 +1,193 @@
+.bootstrap .badge {
+	padding: 1px 5px;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: inherit;
+	letter-spacing: 0.0625em;
+	background-color: #00aff0;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-align: center;
+	border-radius: 10px;
+}
+.bootstrap .panel {
+	position: relative;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: solid 1px #e6e6e6;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+	box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+}
+.bootstrap .panel .panel-heading {
+	font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #555;
+	height: 32px;
+	border: none;
+	line-height: 2.2em;
+	text-transform: uppercase;
+	border-bottom: solid 1px #eee;
+	padding: 0 0 0 5px;
+	margin: -20px -16px 15px -16px
+}
+.bootstrap .panel .panel-heading .badge {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    padding: 0 10px;
+    font-weight: 700;
+    border: solid 1px #d9d9d9;
+    background-color: #fff;
+    margin-left: 0.4em;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+	letter-spacing: 0.0625em;
+}
+.bootstrap .message-item-initial h2 {
+	font-size: 1.5em;
+	margin: 0 0 5px 0;
+}
+.bootstrap .avatar-md {
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	text-align: center;
+	background-color: #eee;
+	overflow: hidden;
+	-webkit-border-radius: 48px;
+	border-radius: 48px;
+}
+.bootstrap .message-item-initial-body {
+	border: solid 1px #ddd;
+	box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+	position: relative;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.bootstrap .message-item {
+	position: relative;
+	border-bottom: solid 1px #eee;
+	margin: 0 0 0 30px;
+	padding: 10px 0;
+}
+.bootstrap a {
+	color: #00aff0;
+	text-decoration: none;
+}
+.bootstrap .message-item:first-child {
+	margin-top: 0;
+}
+.bootstrap .message-item .message-avatar {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.bootstrap .avatar-md img {
+	width: 100%;
+	height: 100%;
+}
+.bootstrap .message-item .message-date {
+	color: #bbb;
+}
+.bootstrap .message-item .message-item-heading {
+	display: inline-block;
+}
+.bootstrap .message-item .message-body {
+	margin: 0 0 0 80px;
+}
+.bootstrap .message-item .message-body .message-item-text {
+	padding: 0 0 0 10px;
+	border-left: 2px solid #ccc;
+}
+.bootstrap .text-muted {
+	color: #999;
+}
+.bootstrap .media-body {
+	overflow: hidden;
+	zoom: 1;
+}
+.bootstrap .media-body textarea {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 4px 8px;
+	font-size: 12px;
+	line-height: 1.42857;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+	-o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+.bootstrap .panel .panel-footer {
+	height: 73px;
+	border-color: #eee;
+	background-color: #FCFDFE;
+	margin: 15px -20px -20px;
+	padding: 10px 15px;
+	border-top: 1px solid #ddd;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.bootstrap .panel .panel-footer .icon-mail-reply {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 28px;
+	background: transparent;
+	background-size: 26px;
+	background-position: center;
+}
+.bootstrap .message-item-heading .icon-mail-reply  {font-size: 14px}
+.bootstrap .btn {
+	height: 55px;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 4px 8px;
+	font-size: 12px;
+	line-height: 1.42857;
+	border-radius: 3px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.bootstrap .btn.btn-default:hover {
+	color: #fff;
+	background-color: #00aff0;
+	border-color: #008abd;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.bootstrap .btn.btn-default {
+	-webkit-box-shadow: #e6e6e6 0 -2px 0 inset;
+	box-shadow: #e6e6e6 0 -2px 0 inset;
+	color: #555;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.bootstrap .pull-right {
+	float: right !important;
+}
