@@ -81,8 +81,8 @@ class ContactController extends ContactControllerCore
                 return _PS_MODULE_DIR_.$this->module->name.'/views/templates/front/'.$template;
             }
             return false;
-        }
-        else
+        } else {
             return _PS_THEME_DIR_.($template);
+        }
     }
 }
