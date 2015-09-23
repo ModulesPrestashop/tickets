@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-	<name>customerthread</name>
+	<name>tickets</name>
 	<displayName><![CDATA[Tickets]]></displayName>
 	<version><![CDATA[1.0.0]]></version>
 	<description><![CDATA[Extend features of customer thread by including ticket history in front-office]]></description>
