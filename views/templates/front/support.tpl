@@ -68,18 +68,18 @@
 			<tbody>
 				{foreach from=$tickets item=item}
 				<tr>
-					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)}'">{$item.id_customer_thread|intval}</td>
-					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)}'">
+					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)|escape:'htmlall':'UTF-8'}'">{$item.id_customer_thread|intval}</td>
+					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)|escape:'htmlall':'UTF-8'}'">
 						{$item.subject|truncate:32:'...'|escape:'htmlall':'UTF-8'}<br />
 						<small>{l s='Created at' mod='tickets'} {$item.date_add|escape:'htmlall':'UTF-8'}</small>
 					</td>
-					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)}'">
+					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)|escape:'htmlall':'UTF-8'}'">
 						<p class="label {if $item.status == open}label-primary{elseif $item.status == pending1}label-warning{elseif $item.status == closed}label-success{elseif $item.status == pending2}label-danger{else}label-info{/if}">
 							{$statuses[$item.status]|escape:'htmlall':'UTF-8'}
 						</p>
 					</td>
 					<td>{$item.id_order|escape:'htmlall':'UTF-8'}</td>
-					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)}'">{$item.date_upd|escape:'htmlall':'UTF-8'}</td>
+					<td class="pointer" onclick="location.href='{$link->getModuleLink('tickets', 'support', [ticket => {$item.id_customer_thread|intval}], true)|escape:'htmlall':'UTF-8'}'">{$item.date_upd|escape:'htmlall':'UTF-8'}</td>
 				</tr>
 				{/foreach}
 			</tbody>
