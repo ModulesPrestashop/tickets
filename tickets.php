@@ -47,7 +47,7 @@ class Tickets extends Module
 
         parent::__construct();
 
-        $this->displayName = $this->l('Customer Thread');
+        $this->displayName = $this->l('Tickets');
         $this->description = $this->l(
             'Extend features of customer thread by including ticket history in front-office'
         );
