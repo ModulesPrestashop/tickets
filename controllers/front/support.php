@@ -1,6 +1,6 @@
 <?php
 /**
-* 2014 Jorge Vargas
+* 2015 Jorge Vargas
 *
 * NOTICE OF LICENSE
 *
@@ -9,7 +9,7 @@
 * See attachmente file LICENSE
 *
 * @author    Jorge Vargas <jorgevargaslarrota@hotmail.com>
-* @copyright 2007-2014 Jorge Vargas
+* @copyright 2012-2015 Jorge Vargas
 * @license   End User License Agreement (EULA)
 * @package   freshdesk
 * @version   1.0
