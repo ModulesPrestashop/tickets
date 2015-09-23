@@ -36,7 +36,7 @@ class Tickets extends Module
 		$this->name = 'tickets';
 		$this->tab = 'front_office_features';
 		$this->version = '1.0.0';
-		$this->author = 'jorgevrgs';
+		$this->author = 'Jorge Vargas';
 		$this->need_instance = 0;
 		$this->controllers = array('support');
 		/**
